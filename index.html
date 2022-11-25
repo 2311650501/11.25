@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			.nav{
+				text-align: center;
+			}
+			.nav img{
+				width: 1080px;
+				height: 1280px;
+			}
+		</style>
+		<script>
+			function qwe(){
+				alert("就问你帅不帅？");
+			}
+			function qwefouse(){
+				var a=document.getElementById("demo");
+				alert("你写了什么？")
+			}
+		</script>
+	</head>
+	<body onload="qwe()">
+		<div class="nav">
+			<img src="图1.jpg" >
+			<br />
+			<input type="text" onchange="qwefouse()" id="demo" onblur="qwefouse()"/>
+		</div>
+	</body>
+</html>
